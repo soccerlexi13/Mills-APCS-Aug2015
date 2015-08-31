@@ -1,6 +1,6 @@
 
 /**
- * Print out Mississippi Exercise 1, revised 8/30/15
+ * Print out Mississippi, Programming Practice 1, revised 8/30/15
  * 
  * @Alexis Scheerer
  * @8/25/15
