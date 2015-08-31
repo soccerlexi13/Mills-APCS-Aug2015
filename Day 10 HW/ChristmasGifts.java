@@ -1,96 +1,111 @@
-
 /**
- * HW Day 10 PP 4
+ * HW Day 10 PP 4 print out the 12 days of Christmas, revised 8/31/15
  * 
- * @Alexis Scheerer
- * @8/27/15
+ * @Author Alexis Scheerer
+ * @Version 8/27/15
  */
 public class ChristmasGifts
 {
     public static void main(String[] args)
     {
-        System.out.println("On the first day of Christmas,\nmy true love sent to me:");
-        FirstDay();
-        System.out.println("On the second day of Christmas,\nmy true love sent to me:");
-        SecondDay();
-        System.out.println("On the third day of Christmas,\nmy true love sent to me:");
-        ThirdDay();
-        System.out.println("On the fourth day of Christmas,\nmy true love sent to me:");
-        FourthDay();
-        System.out.println("On the fifth day of Christmas,\nmy true love sent to me:");
-        FifthDay();
-        System.out.println("On the sixth day of Christmas,\nmy true love sent to me:");
-        SixthDay();
-        System.out.println("On the seventh day of Christmas,\nmy true love sent to me:");
-        SeventhDay();
-        System.out.println("On the eighth day of Christmas,\nmy true love sent to me:");
-        EighthDay();
-        System.out.println("On the ninth day of Christmas,\nmy true love sent to me:");
-        NinthDay();
-        System.out.println("On the tenth day of Christmas,\nmy true love sent to me:");
-        TenthDay();
-        System.out.println("On the eleventh day of Christmas,\nmy true love sent to me:");
-        EleventhDay();
-        System.out.println("On the twelfth day of Christmas,\nmy true love sent to me:");
-        TwelfthDay();
+        System.out.print("On the first");
+        trueLoveGave();
+        firstDay();
+        System.out.print("On the second");
+        trueLoveGave();
+        secondDay();
+        System.out.print("On the third");
+        trueLoveGave();
+        thirdDay();
+        System.out.print("On the fourth");
+        trueLoveGave();
+        fourthDay();
+        System.out.print("On the fifth");
+        trueLoveGave();
+        fifthDay();
+        System.out.print("On the sixth");
+        trueLoveGave();9
+        sixthDay();
+        System.out.print("On the seventh");
+        trueLoveGave();
+        seventhDay();
+        System.out.print("On the eighth");
+        trueLoveGave();
+        eighthDay();
+        System.out.print("On the ninth");
+        trueLoveGave();
+        ninthDay();
+        System.out.print("On the tenth");
+        trueLoveGave();
+        tenthDay();
+        System.out.print("On the eleventh");
+        trueLoveGave();
+        eleventhDay();
+        System.out.print("On the twelfth");
+        trueLoveGave();
+        twelfthDay();
     }
-    public static void FirstDay()
+    public static void trueLoveGave()
+    {
+        System.out.println(" day of Christmas,\nmy true love sent to me:");
+    }
+    public static void firstDay()
     {
         System.out.println("a partridge in a pear tree.");
     }
-    public static void SecondDay()
+    public static void secondDay()
     {
         System.out.println("two turtle doves, and");
-        FirstDay();
+        firstDay();
     }
-    public static void ThirdDay()
+    public static void thirdDay()
     {
         System.out.println("three French hens,");
-        SecondDay();
+        secondDay();
     }
-    public static void FourthDay()
+    public static void fourthDay()
     {
         System.out.println("four calling birds,");
-        ThirdDay();
+        thirdDay();
     }
-    public static void FifthDay()
+    public static void fifthDay()
     {
         System.out.println("FIVE GOLDEN RINGS...");
-        FourthDay();
+        fourthDay();
     }
-    public static void SixthDay()
+    public static void sixthDay()
     {
         System.out.println("six geese a-laying,");
-        FifthDay();
+        fifthDay();
     }
-    public static void SeventhDay()
+    public static void seventhDay()
     {
         System.out.println("seven swans a-swimming,");
-        SixthDay();
+        sixthDay();
     }
-    public static void EighthDay()
+    public static void eighthDay()
     {
         System.out.println("eight maids a-milking,");
-        SeventhDay();
+        seventhDay();
     }
-    public static void NinthDay()
+    public static void ninthDay()
     {
         System.out.println("nine ladies dancing,");
-        EighthDay();
+        eighthDay();
     }
-    public static void TenthDay()
+    public static void tenthDay()
     {
         System.out.println("ten lords a-leaping,");
-        NinthDay();
+        ninthDay();
     }
-    public static void EleventhDay()
+    public static void eleventhDay()
     {
         System.out.println("eleven pipers piping,");
-        TenthDay();
+        tenthDay();
     }
-    public static void TwelfthDay()
+    public static void twelfthDay()
     {
         System.out.println("twelve drummers drumming,");
-        EleventhDay();
+        eleventhDay();
     }
 }
